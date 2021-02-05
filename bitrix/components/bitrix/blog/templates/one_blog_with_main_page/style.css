@@ -1,0 +1,18 @@
+.blog-tab, .blog-tab-selected
+{
+	font-size:78%;
+	font-weight:bold;
+	background-color:#fcfcfc;
+	color:#7a7a7a;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.blog-tab-selected
+{
+	background-color:#495a80;
+	color:#ffffff;
+}
+
