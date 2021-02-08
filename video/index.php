@@ -1,7 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Video");
-?><?$APPLICATION->IncludeComponent(
+?>
+<?$APPLICATION->IncludeComponent(
 	"bitrix:iblock.tv", 
 	"video_template", 
 	array(
@@ -12,7 +13,7 @@ $APPLICATION->SetTitle("Video");
 		"DEFAULT_BIG_IMAGE" => "/bitrix/components/bitrix/iblock.tv/templates/.default/images/default_big.png",
 		"DEFAULT_SMALL_IMAGE" => "/bitrix/components/bitrix/iblock.tv/templates/.default/images/default_small.png",
 		"DURATION" => "13",
-		"HEIGHT" => "300",
+		"HEIGHT" => "400",
 		"IBLOCK_ID" => "2",
 		"IBLOCK_TYPE" => "videos",
 		"LOGO" => "/bitrix/components/bitrix/iblock.tv/templates/.default/images/logo.png",
@@ -24,8 +25,9 @@ $APPLICATION->SetTitle("Video");
 		"STAT_EVENT" => "Y",
 		"STAT_EVENT1" => "player",
 		"STAT_EVENT2" => "start_playing",
-		"WIDTH" => "400",
+		"WIDTH" => "600",
 		"COMPONENT_TEMPLATE" => "video_template"
 	),
 	false
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
